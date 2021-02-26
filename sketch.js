@@ -28,7 +28,7 @@ function setup() {
   if(gameState===PLAY){
   background=createSprite(320,200,600,600)
   background.addImage(Image2)
-  background.scale = 4.5
+  background.scale = 2
   I2=createSprite(100,200,20,20)
   I2.addImage(Image1)
   I2 .scale=0.2
@@ -60,7 +60,7 @@ function setup() {
       background.velocityX=-5
 
     if(keyDown("up")&& I2.y >= 20) {
-          I2.velocityY = -12;
+          I2.velocityY = -6;
    
       }
  I2.velocityY=I2.velocityY+0.5  
